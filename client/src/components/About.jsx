@@ -11,7 +11,7 @@ export default function About() {
       {/* Imagem com tamanho fixo de 100px */}
       <img
         src={SilvanaImage}
-        alt="Silvana Rondina"
+        alt="Silvana Cantizani Rondina"
         style={{
           width: "400px",
           height: "400px",
