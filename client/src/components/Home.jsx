@@ -30,7 +30,7 @@ const Home = () => {
         <div className="highlight-card bg-white p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold mb-4">Experience</h2>
           <p className="text-gray-700">
-            Over 10 years of experience in Cyber Security, specializing in network security and risk management.
+            Over 10 years of experience in Cyber Security, specializing in network security and risk management and governance.
           </p>
         </div>
         <div className="highlight-card bg-white p-6 rounded-lg shadow-md">
