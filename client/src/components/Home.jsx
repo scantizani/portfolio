@@ -12,7 +12,7 @@ const Home = () => {
         <div className="hero-content text-center">
           <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
           <p className="text-lg mb-6">
-            Hello, I'm Silvana Rondina, a Cyber Security Specialist & Software Engineering Student, passionate about technology and innovation.
+            Hello, I'm Silvana Rondina, a Cyber Security Analyst & Software Engineering Student, passionate about technology and innovation.
           </p>
           <div className="cta-buttons">
             <Link to="/about" className="btn-primary bg-blue-500 text-white px-6 py-2 rounded-md mr-4 hover:bg-blue-700">
