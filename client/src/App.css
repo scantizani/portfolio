@@ -1,0 +1,75 @@
+/* #root - Centraliza o conteúdo da página */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms ease-in-out;
+}
+
+/* Efeito de hover no logo */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/* Efeito de hover específico para o logo do React */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Animação do logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Preferência do usuário por reduzir animações */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Cartão de serviço ou conteúdo */
+.card {
+  padding: 2em;
+  border-radius: 8px; /* Adicionando bordas arredondadas aos cartões */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra para um efeito de destaque */
+}
+
+/* Estilos para o link "read the docs" */
+.read-the-docs {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Responsividade - ajustes para telas pequenas */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem; /* Menos padding em dispositivos móveis */
+  }
+
+  .logo {
+    height: 5em; /* Logo menor em dispositivos móveis */
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1.5em; /* Menos padding nos cartões em telas menores */
+  }
+
+  .read-the-docs {
+    font-size: 0.8rem; /* Tamanho de fonte menor em dispositivos móveis */
+  }
+}
