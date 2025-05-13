@@ -8,10 +8,10 @@ export default function About() {
     <section className="min-h-screen bg-black text-white px-6 py-16 flex flex-col items-center text-center">
       <h2 className="text-3xl font-bold mb-6 drop-shadow-md">About Me</h2>
 
-      {/* Imagem com tamanho fixo de 100px */}
+      {/* Imagem com tamanho fixo de 400px */}
       <img
         src={SilvanaImage}
-        alt="Silvana Cantizani Rondina"
+        alt="Silvana Rondina"
         style={{
           width: "400px",
           height: "400px",
